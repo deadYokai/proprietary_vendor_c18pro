@@ -1,0 +1,7 @@
+service sensorcali_hal /vendor/bin/hw/vendor.hct.hardware.sensorcali@1.0-service-lazy
+    interface vendor.hct.hardware.sensorcali@1.0::ISensorCali default
+    oneshot
+    disabled
+    class hal
+    user root
+    group system radio
