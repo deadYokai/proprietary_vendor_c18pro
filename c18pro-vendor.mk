@@ -302,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/c18pro/proprietary/odm/etc/vintf/manifest_ss_se.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss_se.xml \
     vendor/oukitel/c18pro/proprietary/odm/etc/vintf/manifest_ss_se_ese.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss_se_ese.xml \
     vendor/oukitel/c18pro/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
-    vendor/oukitel/c18pro/proprietary/vendor/app/SensorHub/SensorHub.apk:$(TARGET_COPY_OUT_VENDOR)/app/SensorHub/SensorHub.apk \
     vendor/oukitel/c18pro/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
     vendor/oukitel/c18pro/proprietary/vendor/app/t6/0799a943-84a2-dead-0e3f8c88ad72507f.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/0799a943-84a2-dead-0e3f8c88ad72507f.ta \
     vendor/oukitel/c18pro/proprietary/vendor/app/t6/8b1e0e41-2636-11e1-ad9e0002a5d5c51b.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/8b1e0e41-2636-11e1-ad9e0002a5d5c51b.ta \
@@ -1649,3 +1648,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/c18pro/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
     vendor/oukitel/c18pro/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
     vendor/oukitel/c18pro/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav
+
+PRODUCT_PACKAGES +=\
+    SensorHub
