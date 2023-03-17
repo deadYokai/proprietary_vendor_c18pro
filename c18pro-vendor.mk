@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/c18pro/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/oukitel/c18pro/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/oukitel/c18pro/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
-    vendor/oukitel/c18pro/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/oukitel/c18pro/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
     vendor/oukitel/c18pro/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/oukitel/c18pro/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
